@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <style>
+        body{
+            
+            background-image: url("https://cdn.dribbble.com/users/1012608/screenshots/15133156/media/72ac36d3f80d1a0ac685f7bd7b34b7d7.png?compress=1&resize=1000x750&vertical=top");
+
+        }
+        .listenup{
+            display: flex;
+            background-color: rgb(45, 16, 72);
+            height: 150px;
+            justify-content: center;
+        }
+        .photo{
+            width: 150px;
+            height: 150px;
+            border-style: solid;
+            border-color: red;
+            box-sizing: border-box;
+            background-image: url("https://scontent.fmaa1-3.fna.fbcdn.net/v/t39.30808-6/288513882_1423990588070559_7884639652283125311_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MgrSlvFL9x8AX_TVln_&_nc_ht=scontent.fmaa1-3.fna&oh=00_AT_b5R4cGOOI5ikimt59Ud5s45uAaS15MRzZ1d6D2UzJzA&oe=62AF5EB2");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100px;
+        }
+        .page{
+            margin-top: 10px;
+            margin-left: 500px;
+            /* display: flex; */
+           width: 500px;
+           height: 500px;
+           border-style: solid;
+           border-color:black;
+           justify-content: left;
+           /* align-items: center; */
+           background-color: black;
+        }
+        .sig{
+            /* border-style: solid;
+            border-color: bisque; */
+            width: 500px;
+            height: 100px;
+            color: red;
+          text-align: left;
+        }
+        .form-group{
+            /* display: flex; */
+            color: white;
+            justify-content: center;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <div class="listenup">
+           <!-- LISTENUP<br> -->
+           <div class="photo">
+
+           </div>
+       </div>
+   </header>
+   <main>
+       <div class="page">
+           <div class="sig">
+               <h1>
+                Sign In
+               </h1>
+           </div>
+           <div class="email">
+
+            <form>
+                <div class="form-group">
+                    <label id="name-label"for="name"><h2>Enter Your Email Address</h2></label><br>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        width="20"
+                        
+                        placeholder="Enter your Email Address"
+                        required/>
+                    </div>
+                </form>
+                <br>
+</div>
+      <div class="password">
+          <form>
+            <div class="form-group">
+                <label id="name-label"for="name"><h2> Enter your Password</h2></label><br>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    width="20"
+                    
+                    placeholder="Enter your Password"
+                    required/>
+                </div>
+          </form>
+          <br><br>
+          <form>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                <a href="http://127.0.0.1:5500/index.html" target="_main">Login</a>
+                </button>
+              </div>
+          </form>
+      </div>
+           
+       </div>
+   </main>
+    
+</body>
+</html>
